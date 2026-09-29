@@ -27,4 +27,4 @@ module alu(input [31:0] a,input [31:0] b,input  [3:0] alu_sel,
         endcase
     end
     assign zero=(result==32'd0);
-endmodule
+endmodule //
